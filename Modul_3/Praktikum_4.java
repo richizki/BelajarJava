@@ -4,9 +4,6 @@ package Modul_3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.stream.IntStream;
 import javax.swing.JOptionPane;
 
 /*
@@ -21,7 +18,8 @@ import javax.swing.JOptionPane;
  */
 public class Praktikum_4 {
     public static void main(String[] args) throws IOException{
-        String nilai_semua[] = new String[4], grade1, grade2;
+        String nilai_semua[] = new String[4], grade1, grade2, 
+                mahasiswa1 = null, mahasiswa2 = null;
         int nilai = 0;
         int nilai_akhir[] = new int[4];
         int max = 0, min = 100;
@@ -38,8 +36,10 @@ public class Praktikum_4 {
         for (int i = 0; i < nilai_akhir.length; i++) {
             if (nilai_akhir[i] > max) {
                 max = nilai_akhir[i];
+                mahasiswa1 = siswa[i];
             }else if(nilai_akhir[i] < min) {
                 min = nilai_akhir[i];
+                mahasiswa2 = siswa[i];
             }
             
         }
@@ -72,7 +72,7 @@ public class Praktikum_4 {
                 grade2 = "A";
             }
 
-        System.out.println("Nilai terbesar adalah "+ max + " Grade = " +grade1);
-        System.out.println("Nilai terkecil adalah "+ min + " Grade = "+grade2);
+        JOptionPane.showMessageDialog(null, "Nilai terbesar adalah "+mahasiswa1 +" "+ max + " Grade = " +grade1);
+        JOptionPane.showMessageDialog(null, "Nilai terkecil adalah "+mahasiswa2 +" "+ min + " Grade = "+grade2);
     }
 }
