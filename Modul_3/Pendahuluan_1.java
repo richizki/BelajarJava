@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
  *
  * @author bangadam
  */
-public class Praktikum_1 {
+public class Pendahuluan_1 {
     public static void main(String[] args) throws IOException {
         String nama;
         String nim;
