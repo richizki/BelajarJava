@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  *
  * @author bangadam
  */
-public class Praktikum_2 {
+public class Pendahuluan_2 {
     public static void main(String[] args) throws IOException {
         int hasil2, c,d;
          
