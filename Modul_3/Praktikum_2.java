@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 public class Praktikum_2 {
     public static void main(String[] args) throws IOException {
         int hasil2, c,d;
-        
+         
         System.out.println("======Use JOptions Pane=======");
         c = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Nilai A = "));
         d = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Nilai B = "));
