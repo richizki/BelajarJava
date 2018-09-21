@@ -25,7 +25,7 @@ public class Praktikum_1 {
         BufferedReader input = new BufferedReader(new InputStreamReader(
                 System.in)
         );
-        
+         
         try {
             System.out.print("Masukkan nama anda : ");
             nama = input.readLine();
