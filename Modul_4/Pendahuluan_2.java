@@ -9,7 +9,7 @@ package Modul_4;
  *
  * @author bangadam
  */
-public class Pendahuluan_1 {
+public class Pendahuluan_2 {
     public static void main(String[] args) {
         int a = 1 , b = 1;
                 
