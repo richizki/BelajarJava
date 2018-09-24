@@ -72,7 +72,9 @@ public class Praktikum_4 {
                 grade2 = "A";
             }
 
-        JOptionPane.showMessageDialog(null, "Nilai terbesar adalah "+mahasiswa1 +" "+ max + " Grade = " +grade1);
-        JOptionPane.showMessageDialog(null, "Nilai terkecil adalah "+mahasiswa2 +" "+ min + " Grade = "+grade2);
+        JOptionPane.showMessageDialog(null, "Nilai terbesar adalah "
+                +mahasiswa1 +" "+ max + " Grade = " +grade1);
+        JOptionPane.showMessageDialog(null, "Nilai terkecil adalah "
+                +mahasiswa2 +" "+ min + " Grade = "+grade2);
     }
 }
