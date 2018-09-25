@@ -73,7 +73,7 @@ public class Praktikum_2 {
             d = 1;
          } else if(i == 2) {
             double bagi;
-             System.out.print("Masukkan Angka = ");
+             System.out.print("Masukkan Angka Bagi = ");
             bagi = Integer.parseInt(read.readLine());
             total /= bagi;
             System.out.println("Dibagi "+bagi+" hasil sementara = "+total);
