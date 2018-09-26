@@ -7,7 +7,7 @@ package Modul_4;
 
 /**
  *
- * @author LAB-PEMROGRAMAN.9
+ * @author bangadam
  */
 public class Praktikum_1 {
     public static void main(String[] args) {
