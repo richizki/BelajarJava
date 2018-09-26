@@ -22,15 +22,15 @@ public class Praktikum_4 {
                     JOptionPane.showInputDialog(
                             "Masukkan Bilangan sebanyak 5 kali, " +i+" kali"));
             hasil+=bilangan;
+            
+            if (hasil%2 == 1) {
+             System.out.println("Angka "+bilangan+" termasuk Bilangan ganjil");
+            } else {
+                System.out.println("Angka "+bilangan+" termasuk Bilangan Genap");
+            }
         }
         
         
         System.out.println("Total jumlah Bilangan = "+ hasil);
-        
-        if (hasil%2 == 1) {
-            System.out.println("Bilangan termasuk ganjil");
-        } else {
-            System.out.println("Bilangan termasuk Genap");
-        }
     }
 }
