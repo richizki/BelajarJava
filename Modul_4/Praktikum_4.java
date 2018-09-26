@@ -5,21 +5,32 @@
  */
 package Modul_4;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import javax.swing.JOptionPane;
 
 /**
  *
- * @author bangadam
+ * @author LAB-PEMROGRAMAN.9
  */
 public class Praktikum_4 {
     public static void main(String[] args) {
-        int angka, i = 1;
-        angka = Integer.parseInt(
-                JOptionPane.showInputDialog(
-                        "Masukkan Angka Ganjil atau Genap = "));
-        
-        if (angka%2) {
-            1
+        int bilangan =0, batas = 5, hasil=0;
+         
+        for (int i = 0; i <batas; i++) {
+            bilangan = Integer.parseInt(
+                    JOptionPane.showInputDialog(
+                            "Masukkan Bilangan sebanyak 5 kali, " +i+" kali"));
+            hasil+=bilangan;
+            
+            if (hasil%2 == 1) {
+             System.out.println("Angka "+bilangan+" termasuk Bilangan ganjil");
+            } else {
+                System.out.println("Angka "+bilangan+" termasuk Bilangan Genap");
+            }
         }
+        
+        
+        System.out.println("Total jumlah Bilangan = "+ hasil);
     }
 }
