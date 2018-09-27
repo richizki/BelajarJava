@@ -5,11 +5,13 @@
  */
 package Modul_4;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import javax.swing.JOptionPane;
 
 /**
  *
- * @author bangadam
+ * @author LAB-PEMROGRAMAN.9
  */
 public class Praktikum_4 {
     public static void main(String[] args) {
