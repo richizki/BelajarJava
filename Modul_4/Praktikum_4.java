@@ -13,13 +13,22 @@ import javax.swing.JOptionPane;
  */
 public class Praktikum_4 {
     public static void main(String[] args) {
-        int angka, i = 1;
-        angka = Integer.parseInt(
-                JOptionPane.showInputDialog(
-                        "Masukkan Angka Ganjil atau Genap = "));
+        int bilangan = 0, batas = 5, hasil = 0;
         
-        if (angka%2) {
-            1
+        for (int j = 0; j < batas; j++) {
+            bilangan = Integer.parseInt(
+                JOptionPane.showInputDialog(
+                        "Masukkan Angka Ganjil atau Genap 5 kali, " + j+" kali"));
+            
+            hasil += bilangan;
+            
+            if (bilangan % 2 == 1) {
+                System.out.println("Angka "+ bilangan+" Termasuk bilangan ganjil");
+            } else {
+                System.out.println("Angka "+ bilangan+" Termasuk bilangan genap");
+            }
         }
+        
+        System.out.println("Jumlah total bilangan = "+hasil);
     }
 }
