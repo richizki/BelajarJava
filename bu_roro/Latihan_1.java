@@ -105,7 +105,7 @@ public class Latihan_1 {
             case 98 :
             case 99 :
             case 100 :
-                System.out.println("B");
+                System.out.println("A");
             break;
             
             default:
