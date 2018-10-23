@@ -11,7 +11,7 @@ public class Praktikum_2 {
         // Praktikum 2 A
         System.out.println("==========Soal A========");
         int coba[] = new int[5];
-        int max = -1000, min = 1000, imax=0, imin=0;
+        int max = 0, min = 1000, imax=0, imin=0;
         
         for (int a = 0; a < coba.length; a++) {
             coba[a] = Integer.parseInt(
@@ -21,7 +21,8 @@ public class Praktikum_2 {
             if (coba[i] > max) {
                 max = coba[i];
                 imax = i;
-            }else if(coba[i] < min) {
+            }
+            if(coba[i] < min) {
                 min = coba[i];
                 imin = i;
             }
