@@ -9,7 +9,7 @@ package Modul_6;
  *
  * @author bangadam
  */
-public class Pendahuluan_4 {
+public class Pendahuluan_5 {
     public static void main(String[] args) {
         int data2[][] = {
             {4,6,4,7,8,3,2,10},
@@ -49,7 +49,7 @@ public class Pendahuluan_4 {
             do {
                 System.out.println("array  = ["+c+"] => "+data2[c][d]);
                 d++;
-            } while (d < data2[c].length);
+            } while (d < data2[c].length); 
             c++;
         } while (c < data2.length);
         
