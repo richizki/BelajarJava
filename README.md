@@ -7,6 +7,7 @@ Kumpulan kode java hasil belajar dari modul-modul java di UIN MALIKI Malang
 3. Modul tiga => [download](https://www.dropbox.com/s/76kkhlc5b0bfugt/MODUL%203-1%20%281%29.pdf?dl=0) 
 4. Modul empat => [download](https://www.dropbox.com/s/ex9hvitdu7lv9xq/MODUL%204.pdf?dl=0)
 5. Moodul lima => [download](https://www.dropbox.com/s/itgneyh51vazhn3/MODUL%205.pdf?dl=0)
+6. Moodul enam => [download](https://www.dropbox.com/s/hzcjc5jbk58bvhq/MODUL%206.pdf?dl=0)
 
 ### Authors
 Muhammad Meganata Adam S [@bangadam.dev](https://instagram.com/bangadam.dev)
