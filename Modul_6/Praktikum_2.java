@@ -88,7 +88,7 @@ public class Praktikum_2 {
                 }
             }
         }
-        System.out.println("Total Jumlah Ganjil => "+ganjil);
+        System.out.println("Total Jumlah Ganjil => "+ganjil); 
         System.out.println("Total Jumlah Genap => "+genap);
     }
 }
