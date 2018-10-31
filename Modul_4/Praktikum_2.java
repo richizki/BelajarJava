@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
 public class Praktikum_2 {
     public static void main(String[] args) throws IOException {
         // Deklarasi
-       int a,b,c,d = 1, total= 0;
+       int a,b,c,   d = 1, total= 0;
        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
        
         //Soal A
