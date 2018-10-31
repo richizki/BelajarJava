@@ -17,8 +17,21 @@ public class Praktikum_4 {
             {2,9,5,17},
             {1,5,10,4}
         };
+        
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data[i].length; j++) {
+                if (data[i][j] == 9) {
+                    System.out.println("["+i+"]["+j+"] => "+data[i][j]+" Index yang akan diganti nilainya");
+                } else {
+                    System.out.println("["+i+"]["+j+"] => "+data[i][j]);
+                }
+            }
+            System.out.println();
+        }
+        
         int nilai = Integer.parseInt(JOptionPane
-                .showInputDialog("Masukkan Nilai"));
+                .showInputDialog("Masukkan Nilai untuk Index ke [0][1]"));
+
         // ubah nilai
         data[0][1] = nilai;
         
@@ -26,7 +39,11 @@ public class Praktikum_4 {
                 
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
-                System.out.println("["+i+"]["+j+"] => "+data[i][j]);
+                if (data[i][j] == nilai) {
+                    System.out.println("["+i+"]["+j+"] => "+data[i][j]+" Nilai Sudah Berubah");
+                } else {
+                    System.out.println("["+i+"]["+j+"] => "+data[i][j]);
+                }
                 total += data[i][j];
             }
             System.out.println();
