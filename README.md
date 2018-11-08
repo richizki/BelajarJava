@@ -9,7 +9,7 @@ Kumpulan kode java hasil belajar dari modul-modul java di UIN MALIKI Malang
 5. Modul 5 => [download](https://www.dropbox.com/s/itgneyh51vazhn3/MODUL%205.pdf?dl=0)
 6. Modul 6 => [download](https://www.dropbox.com/s/hzcjc5jbk58bvhq/MODUL%206.pdf?dl=0)
 7. Modul 7 => [download](https://www.dropbox.com/s/uufjqxxrv0hd8vu/MODUL%207.pdf?dl=0)
-8. Modul 8 => [download](https://www.dropbox.com/s/uufjqxxrv0hd8vu/MODUL%207.pdf?dl=0)
+8. Modul 8 => [download](https://www.dropbox.com/s/65454xjfol2a63s/MODUL%208.pdf?dl=0)
 9. Modul 9 => [download](https://www.dropbox.com/s/tkmjtciq7mpbgw4/MODUL%209.pdf?dl=0)
 10. Modul 10 => [download](https://www.dropbox.com/s/fic42y5nmy2k8xq/MODUL%2010.pdf?dl=0)
 

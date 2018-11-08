@@ -31,14 +31,9 @@ public class Praktikum_2 {
             bagi += data2[c].length;
             while(d < data2[c].length) {
                 System.out.println("["+c+"]["+d+"] => "+data2[c][d]);
-//                ratarata += data2[c][d];
                 semuaRata += data2[c][d];
                 d++;
             }
-//            System.out.println(
-//                    "rata rata array baris ke "+c+" => "+(
-//                            ratarata /= data2[c].length));
-//            ratarata=0;
             c++;
         }
         ratarata=0;
@@ -48,13 +43,8 @@ public class Praktikum_2 {
             int f = 0;
             do {
                 System.out.println("["+e+"]["+f+"] => "+data2[e][f]);
-//                ratarata += data2[e][f];
                 f++;
             } while (f<data2[e].length);
-//            System.out.println(
-//                    "rata rata array baris ke "+e+" => "+(
-//                            ratarata /= data2[e].length));
-//            ratarata=0;
             e++;
         }while(e < data2.length);
         
