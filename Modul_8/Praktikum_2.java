@@ -16,6 +16,9 @@ import javax.swing.JFrame;
  * @author bangadam
  */
 public class Praktikum_2 extends JFrame {
+    /*
+    inisialisasi textfield dan button
+    */
     TextField text1 = new TextField();
     Button bt1 = new Button("1");
     Button bt2 = new Button("2");
@@ -34,11 +37,17 @@ public class Praktikum_2 extends JFrame {
     Button bt15 = new Button("=");
     Button bt16 = new Button("/");
     
+    /*
+     * memanggil frame to main program
+     */
     public static void main(String[] args) {
         Praktikum_2 gui = new Praktikum_2();
         gui.objek();
     }
-
+    
+    /*
+    set configuration of class
+    */
     Praktikum_2() {
         setTitle("Desain Calculator");
         setLocation(200, 100);
@@ -46,9 +55,11 @@ public class Praktikum_2 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
+    /*
+    set layout, Label, and button to frame
+    */
     void objek() {
         getContentPane().setLayout(null);
-//        getContentPane().setBackground(Color.red);
         getContentPane().add(text1);
         
         getContentPane().add(bt1);
@@ -84,7 +95,7 @@ public class Praktikum_2 extends JFrame {
         bt10.setBounds(100, 140, 40, 40);
         bt11.setBounds(150, 140, 40, 40);
         bt12.setBounds(200, 140, 40, 40);
-//        
+     
         bt13.setBounds(50, 190, 40, 40);
         bt14.setBounds(100, 190, 40, 40);
         bt15.setBounds(150, 190, 40, 40);

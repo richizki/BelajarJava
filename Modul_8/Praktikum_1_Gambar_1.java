@@ -14,16 +14,26 @@ import javax.swing.JFrame;
  * @author bangadam
  */
 public class Praktikum_1_Gambar_1 extends JFrame {
+    /**
+     * inisialisasi komponen
+     */
     Checkbox cb1 = new Checkbox("Pilih A");
     Checkbox cb2 = new Checkbox("Pilih B");
     Checkbox cb3 = new Checkbox("Pilih C");
     
+    /**
+     * set config untuk class
+     */
     Praktikum_1_Gambar_1() {
         setTitle("Proogram Gui Pertamaku");
         setLocation(200, 100);
         setSize(400, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+    
+    /**
+     * set layout, background color, and button to frame
+     */
     
     void objek() {
         getContentPane().setLayout(null);
@@ -37,6 +47,10 @@ public class Praktikum_1_Gambar_1 extends JFrame {
         setVisible(true);
     }
     
+    /**
+     * memanggil frame to main program
+     * @param args 
+     */
     public static void main(String args[]) {
         Praktikum_1_Gambar_1 gui = new Praktikum_1_Gambar_1();
         gui.objek();

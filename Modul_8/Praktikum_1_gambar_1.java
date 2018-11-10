@@ -15,16 +15,25 @@ import javax.swing.JFrame;
  * @author bangadam
  */
 public class Praktikum_1_gambar_1 extends JFrame {
+    /**
+     * inisialisasi komponen button
+     */
     Button cb1 = new Button("Pilih A");
     Button cb2 = new Button("Pilih B");
     
+    /*
+    set configuration of class
+    */
     Praktikum_1_gambar_1() {
         setTitle("Program GUI pertamaku");
         setLocation(200, 100);
         setSize(200, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-
+    
+    /*
+    set layout, background color, and button to frame
+    */
     void objek() {
         getContentPane().setLayout(new FlowLayout());
         getContentPane().setBackground(Color.GREEN);
@@ -34,6 +43,9 @@ public class Praktikum_1_gambar_1 extends JFrame {
         setVisible(true);
     }
     
+    /*
+     * memanggil frame to main program
+     */
     public static void main(String args[]) {
         Praktikum_1_gambar_1 gui = new Praktikum_1_gambar_1();
         gui.objek();
