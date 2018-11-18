@@ -10,6 +10,7 @@ import java.awt.Label;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -33,26 +34,27 @@ public class Pendahuluan_3 extends JFrame {
     Button bt2 = new Button("-");
     Button bt3 = new Button("/");
     Button bt4 = new Button("*");
+    Button bt5 = new Button("pangkat");
 
     public static void main(String[] args) {
         /*
          * Pemanggilan class
          */
         Pendahuluan_3 gui = new Pendahuluan_3();
-        gui.objek();
+        gui.terserah();
     }
 
     /*
      * set config for Jframe
      */
-    public Pendahuluan_3() {
+    Pendahuluan_3() {
         setTitle("Pendahuluan 3");
         setLocation(200, 100);
         setSize(400, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    void objek() {
+    void terserah() {
         getContentPane().setLayout(null);
         /*
          * Menambahkkan komponen kedalam jframe
@@ -67,6 +69,7 @@ public class Pendahuluan_3 extends JFrame {
         getContentPane().add(bt2);
         getContentPane().add(bt3);
         getContentPane().add(bt4);
+        getContentPane().add(bt5);
 
         /*
          * Block code untuk mengatur posisi label, text input dan button
@@ -81,8 +84,10 @@ public class Pendahuluan_3 extends JFrame {
         bt2.setBounds(180, 190, 50, 50);
         bt3.setBounds(260, 190, 50, 50);
         bt4.setBounds(180, 250, 50, 50);
+        bt5.setBounds(180, 300, 50, 50);
 
         setVisible(true);
+        
 
         bt1.addActionListener(new ActionListener() {
             @Override
@@ -90,8 +95,19 @@ public class Pendahuluan_3 extends JFrame {
                 int input1 = Integer.parseInt(text1.getText());
                 int input2 = Integer.parseInt(text2.getText());
                 
-                Pendahuluan_3 call = new Pendahuluan_3();
-                text3.setText(String.valueOf(call.setTambah(input1, input2)));
+                int hasil = input1 + input2;
+                text3.setText(String.valueOf(hasil));
+            }
+        });
+        
+        bt5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int input1 = Integer.parseInt(text1.getText());
+                int input2 = Integer.parseInt(text2.getText());
+                
+                Pendahuluan_3 adam = new Pendahuluan_3();
+                text3.setText(String.valueOf(adam.setTambah(input1, input2)));
             }
         });
         
@@ -148,5 +164,6 @@ public class Pendahuluan_3 extends JFrame {
         int hasil = input1 * input2;
         return hasil;
     }
+    
 }
     
