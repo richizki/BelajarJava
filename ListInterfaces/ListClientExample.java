@@ -19,7 +19,8 @@ public class ListClientExample {
 
 	// Constructor dari class ListClientExample
 	public ListClientExample() {
-	    ArrayList<String> list = new ArrayList();
+	    list = new LinkedList();
+//		list = new ArrayList();
 	}
         
         // Memmbuat method dengan mendapatkan data dari List
