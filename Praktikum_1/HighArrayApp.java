@@ -1,7 +1,7 @@
 package Praktikum_1;
 
 class highArray {
-    private int[] arr;
+    public int[] arr;
     private int nElemen;
 
     public highArray(int max) {
@@ -9,7 +9,7 @@ class highArray {
         nElemen = 0;
     }
 
-    public void insert(int value) {
+    public void  insert(int value) {
         arr[nElemen] = value;
         nElemen++;
     }
@@ -54,41 +54,49 @@ class highArray {
     public void size() {
         System.out.println("Jumlah elemen array = "+this.arr.length);
     }
+
+    //buat method untuk mengurutkan
+    public int sorted(int arr[], int value, int batas) {
+        if (nElemen >= batas)
+            return nElemen;
+
+        int i;
+        for (i=nElemen-1; (i >= 0 && arr[i] > value); i--)
+            arr[i+1] = arr[i];
+
+        arr[i+1] = value;
+
+        return nElemen++;
+    }
 }
 
 public class HighArrayApp {
     public static void main(String[] args) {
-        int maxSize = 100;
+        int maxSize = 9;
         highArray arr;
         arr = new highArray(maxSize);
 
-        arr.insert(70);
-        arr.insert(80);
-        arr.insert(75);
-        arr.insert(55);
-        arr.insert(85);
-        arr.insert(25);
+        // isi angka
+        arr.insert(10);
+        arr.insert(20);
         arr.insert(30);
-        arr.insert(00);
-        arr.insert(90);
         arr.insert(40);
+        arr.insert(50);
+
+        // mendapatkan batas array
+        int batas = arr.arr.length;
+        // nilai baru yang akan ditambahkan
+        int value = 30;
+
+        System.out.print("\nSebelum di tambahkan: ");
 
         arr.display();
 
-        int key = 25;
-        if (arr.find(key)) {
-            System.out.println(key + " ditemukan");
-        } else {
-            System.out.println(key + " tidak ditemukan");
-        }
+        // Inserting key
+        arr.sorted(arr.arr, value, batas);
 
-        arr.delete(00);
-        arr.delete(80);
-        arr.delete(55);
+        System.out.print("\nSetelah di tambahkan: ");
 
         arr.display();
-
-        // menambahkan method size
-        arr.size();
     }
 }
