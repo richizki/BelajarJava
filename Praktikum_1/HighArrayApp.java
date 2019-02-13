@@ -1,7 +1,7 @@
 package Praktikum_1;
 
 class highArray {
-    public int[] arr;
+    private int[] arr;
     private int nElemen;
 
     public highArray(int max) {
@@ -56,8 +56,8 @@ class highArray {
     }
 
     //buat method untuk mengurutkan
-    public int sorted(int arr[], int value, int batas) {
-        if (nElemen >= batas)
+    public int sorted(int value) {
+        if (nElemen >= arr.length)
             return nElemen;
 
         int i;
@@ -76,6 +76,7 @@ public class HighArrayApp {
         highArray arr;
         arr = new highArray(maxSize);
 
+        // ============ Start Of Insert in Sorted Array ========= //
         // isi angka
         arr.insert(10);
         arr.insert(20);
@@ -84,19 +85,21 @@ public class HighArrayApp {
         arr.insert(50);
 
         // mendapatkan batas array
-        int batas = arr.arr.length;
         // nilai baru yang akan ditambahkan
-        int value = 30;
+        int value = 35;
 
         System.out.print("\nSebelum di tambahkan: ");
 
         arr.display();
 
         // Inserting key
-        arr.sorted(arr.arr, value, batas);
+        arr.sorted(value);
 
         System.out.print("\nSetelah di tambahkan: ");
 
         arr.display();
+        // ============ End Of Insert in Sorted Array ========= //
+
+        // ============ Start Of Binary Search Array ========= //
     }
 }
