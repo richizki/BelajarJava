@@ -14,18 +14,26 @@ class highArray {
         nElemen++;
     }
 
-    public boolean find(int key) {
-        int i;
-        for (i = 0; i < nElemen; i++) {
-            if (arr[i] == key) {
-                break;
-            }
+    public int find(int nilaiDicari) {
+        int left = 0, panjangArray = arr.length -1;
+
+        while (left <= panjangArray) {
+            int middle = 1 + (panjangArray - 1) / 2;
+
+            // cek jika nilai yang dicari berada di tengah
+            if (arr[middle] == nilaiDicari)
+                return middle;
+
+            // jika nilai yang di cari lebih besar, abaikan sisi kiri
+            if (arr[middle] < nilaiDicari)
+                left = middle + 1;
+
+            // jika nilai yang di cari lebih kecil, abaikan sisi kanan
+            else
+                panjangArray = middle - 1;
         }
-        if (i == nElemen) {
-            return false;
-        } else {
-            return true;
-        }
+
+        return -1;
     }
 
     public boolean delete(int value) {
@@ -48,7 +56,8 @@ class highArray {
     public void display() {
         for (int i = 0; i < nElemen; i++) {
             System.out.print(arr[i] + " ");
-        } System.out.println("");
+        }
+        System.out.println("");
     }
 
     public void size() {
@@ -101,5 +110,17 @@ public class HighArrayApp {
         // ============ End Of Insert in Sorted Array ========= //
 
         // ============ Start Of Binary Search Array ========= //
+        int nilaiDicari = 10;
+
+        int result = arr.find(nilaiDicari);
+
+        if (result == -1) {
+            System.out.println("Nilai tidak ditemukan");
+        } else {
+            System.out.println("Nilai " + nilaiDicari + " berada di index ke = "+ result);
+        }
+        // ============ End Of Binary Search Array ========= //
+
+        // ============ Start
     }
 }

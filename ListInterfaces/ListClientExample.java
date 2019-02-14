@@ -19,12 +19,12 @@ public class ListClientExample {
 
 	// Constructor dari class ListClientExample
 	public ListClientExample() {
-	    list = new LinkedList();
-//		list = new ArrayList();
+	    list = new ArrayList();
+//		list = new List();
 	}
         
         // Memmbuat method dengan mendapatkan data dari List
-	private List getList() {
+	protected List getList() {
 
 	    return list;
 
