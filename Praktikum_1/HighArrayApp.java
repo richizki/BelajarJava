@@ -61,7 +61,9 @@ class highArray {
     }
 
     public void size() {
+
         System.out.println("Jumlah elemen array = "+this.arr.length);
+
     }
 
     //buat method untuk mengurutkan

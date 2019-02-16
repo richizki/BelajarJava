@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="update listClientExample">
-      <change beforePath="$PROJECT_DIR$/ListInterfaces/ListClientExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListInterfaces/ListClientExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +29,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
+        <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
+        <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="375">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -73,9 +76,11 @@
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExampleTest.groovy" />
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExampleTest.java" />
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExample.java" />
-        <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/DataMahasiswa.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" />
+        <option value="$PROJECT_DIR$/Praktikum_1/DataArray.java" />
+        <option value="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
       </list>
     </option>
   </component>
@@ -105,12 +110,18 @@
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
               <item name="Praktikum_1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
+              <item name="Praktikum_1" type="462c0819:PsiDirectoryNode" />
+              <item name="HighArrayApp.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +129,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550075447654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550280457707" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -158,9 +169,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HighArrayApp">
-    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_1.HighArrayApp" />
+  <component name="RunManager" selected="Application.DataArrayApp">
+    <configuration name="DataArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_1.DataArrayApp" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
@@ -172,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListInterfaces.LinkedListDemo" />
+    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_1.HighArrayApp" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListInterfaces.*" />
+          <option name="PATTERN" value="Praktikum_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataArrayApp" />
         <item itemvalue="Application.HighArrayApp" />
         <item itemvalue="JUnit.ListClientExampleTest" />
         <item itemvalue="Application.ListClientExample" />
         <item itemvalue="Application.classArray" />
-        <item itemvalue="Application.LinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +334,7 @@
     <frame x="-2" y="-30" width="1370" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.17824773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.18731117" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,16 +342,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23076923" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39846155" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28869048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32886904" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.39605734" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39583334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -428,10 +432,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
