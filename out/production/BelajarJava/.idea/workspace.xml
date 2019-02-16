@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="update listClientExample">
+    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,19 +34,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java">
+        <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="1230">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -75,11 +81,11 @@
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExampleTest.groovy" />
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExampleTest.java" />
         <option value="$PROJECT_DIR$/ListInterfaces/ListClientExample.java" />
-        <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/DataMahasiswa.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/DataArray.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
       </list>
     </option>
   </component>
@@ -97,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,12 +116,17 @@
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
               <item name="Praktikum_1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
+              <item name="Praktikum_1" type="462c0819:PsiDirectoryNode" />
+              <item name="HighArrayApp.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +134,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550275768028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550280570161" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -162,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataArrayApp">
+  <component name="RunManager" selected="Application.classArray">
     <configuration name="DataArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Praktikum_1.DataArrayApp" />
       <module name="BelajarJava" />
@@ -232,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.classArray" />
         <item itemvalue="Application.DataArrayApp" />
         <item itemvalue="Application.HighArrayApp" />
         <item itemvalue="JUnit.ListClientExampleTest" />
         <item itemvalue="Application.ListClientExample" />
-        <item itemvalue="Application.classArray" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550016387332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1550280469733</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550280469733</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -327,7 +346,7 @@
     <frame x="-2" y="-30" width="1370" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.18504532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.18957704" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,8 +355,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.82886904" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39846155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28869048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -357,13 +376,13 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="add HighArrayApp class" />
     <MESSAGE value="tugas praktikum 2 no. 4" />
     <MESSAGE value="update listClientExample" />
     <MESSAGE value="membuat insert sorted array" />
     <MESSAGE value="update code insert sorted in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code insert sorted in array" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BelajarJava.iml">
@@ -418,20 +437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java" />
     <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -439,17 +445,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java">
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="1230">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="375">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

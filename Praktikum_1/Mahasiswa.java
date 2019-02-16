@@ -19,6 +19,8 @@ class Mahasiswa {
     }
 
     public long getNim() {
+
         return nim;
+
     }
 }
