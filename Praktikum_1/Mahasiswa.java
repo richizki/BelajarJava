@@ -13,9 +13,10 @@ class Mahasiswa {
     }
 
     public void displayMhs() {
-        System.out.println("\tNim = "+ nim);
-        System.out.println(", Nama = "+ nama);
-        System.out.println(", Asal = "+ asal);
+        System.out.print("\tNim = "+ nim+" ");
+        System.out.print(", Nama = "+ nama+" ");
+        System.out.print(", Asal = "+ asal);
+        System.out.println();
     }
 
     public long getNim() {

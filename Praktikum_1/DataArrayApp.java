@@ -40,8 +40,8 @@ class DataArray {
         if (i == nElemen) {
             return false;
         } else {
-            for (i = 0; i < nElemen; i++) {
-                mhs[i] = mhs[i+ 1];
+            for (int j = 0; j < nElemen; j++) {
+                mhs[j] = mhs[j+ 1];
             }
 
             nElemen--;

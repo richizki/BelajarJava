@@ -14,26 +14,20 @@ class highArray {
         nElemen++;
     }
 
-    public int find(int nilaiDicari) {
-        int left = 0, panjangArray = arr.length -1;
+    public boolean find(int nilaiDicari) {
+        int batasBawah = 0, batasAtas = arr.length-1;
 
-        while (left <= panjangArray) {
-            int middle = 1 + (panjangArray - 1) / 2;
+        while(batasBawah <= batasAtas) {
+            int tengah = batasBawah + ((batasAtas - batasBawah) / 2);
 
-            // cek jika nilai yang dicari berada di tengah
-            if (arr[middle] == nilaiDicari)
-                return middle;
-
-            // jika nilai yang di cari lebih besar, abaikan sisi kiri
-            if (arr[middle] < nilaiDicari)
-                left = middle + 1;
-
-            // jika nilai yang di cari lebih kecil, abaikan sisi kanan
+            if(arr[tengah] <= nilaiDicari)
+                return true;
+            else if(nilaiDicari < arr[tengah])
+                batasAtas = tengah - 1;
             else
-                panjangArray = middle - 1;
+                batasBawah = tengah + 1;
         }
-
-        return -1;
+        return false;
     }
 
     public boolean delete(int value) {
@@ -66,13 +60,30 @@ class highArray {
 
     }
 
+    public void BubbleSort(int batas) {
+        int i,n = 1;
+
+        for (i = 0; i < batas ; i++) {
+            if (arr[i] > arr[i +1]) {
+                swap(i, i + i);
+                System.out.println(n++);
+            }
+        }
+    }
+
+    public void swap(int one, int two) {
+        int temp = arr[one];
+        arr[one] = arr[two];
+        arr[two] = temp;
+    }
+
     //buat method untuk mengurutkan
     public int sorted(int value) {
         if (nElemen >= arr.length)
             return nElemen;
 
         int i;
-        for (i=nElemen-1; (i >= 0 && arr[i] > value); i--)
+        for(i = nElemen-1; (i >= 0 && arr[i] > value); i--)
             arr[i+1] = arr[i];
 
         arr[i+1] = value;
@@ -83,46 +94,34 @@ class highArray {
 
 public class HighArrayApp {
     public static void main(String[] args) {
-        int maxSize = 9;
+        int maxSize = 10;
         highArray arr;
         arr = new highArray(maxSize);
 
         // ============ Start Of Insert in Sorted Array ========= //
         // isi angka
-        arr.insert(10);
-        arr.insert(20);
+        arr.insert(15);
         arr.insert(30);
-        arr.insert(40);
-        arr.insert(50);
+        arr.insert(45);
+        arr.insert(53);
+        arr.insert(77);
+        arr.insert(79);
+        arr.insert(81);
+        arr.insert(90);
+        arr.insert(91);
+        arr.insert(92);
+        
+        // ============ Start Of Insert in Sorted Array ========= //
+        int value = 79;
 
-        // mendapatkan batas array
-        // nilai baru yang akan ditambahkan
-        int value = 35;
-
-        System.out.print("\nSebelum di tambahkan: ");
-
+//        arr.display();
+//        arr.sorted(value);
         arr.display();
 
-        // Inserting key
-        arr.sorted(value);
-
-        System.out.print("\nSetelah di tambahkan: ");
-
-        arr.display();
-        // ============ End Of Insert in Sorted Array ========= //
-
-        // ============ Start Of Binary Search Array ========= //
-        int nilaiDicari = 10;
-
-        int result = arr.find(nilaiDicari);
-
-        if (result == -1) {
+        if (arr.find(value))
+            System.out.println("Nilai Ditemukan " + value);
+        else {
             System.out.println("Nilai tidak ditemukan");
-        } else {
-            System.out.println("Nilai " + nilaiDicari + " berada di index ke = "+ result);
         }
-        // ============ End Of Binary Search Array ========= //
-
-        // ============ Start
     }
 }
