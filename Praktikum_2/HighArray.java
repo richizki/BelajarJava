@@ -27,7 +27,9 @@ class highArray {
             for (i = 0; i < batas; i++) {
                 if (arr[i] > arr[i + 1]) {
                     swap(i, i + 1);
-
+//                    if (i >= 10) {
+//                        System.out.println(i);
+//                    }
                 }
                 this.display();
             }
@@ -53,7 +55,28 @@ class highArray {
             }
 
             swap(awal, min);
+            this.display();
         }
 
+    }
+
+    public void InsertionSort() {
+        int i, curIn;
+
+        for (curIn = 1; curIn < nElemen ; curIn++) {
+            int temp = arr[curIn];
+
+            i = curIn;
+
+            while (i > 0 && arr[i-1] >= temp) {
+                arr[i] = arr[i-1];
+                i--;
+                this.display();
+//                System.out.println("================While");
+            }
+            arr[i] = temp;
+            this.display();
+//            System.out.println("================FOR");
+        }
     }
 }

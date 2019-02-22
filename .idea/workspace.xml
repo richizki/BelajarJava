@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="update">
+    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.attach_pid4721" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.attach_pid7707" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.attach_pid8384" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.attach_pid8537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikum_2/HighArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_2/HighArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/META-INF/BelajarJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/HighArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/classArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/classArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/highArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/Praktikum_1/highArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BelajarJava$StackApp.ic" NAME="StackApp Coverage Results" MODIFIED="1550759817907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Praktikum_3.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/BelajarJava$HighArrayApp.ic" NAME="HighArrayApp Coverage Results" MODIFIED="1549985350353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Praktikum_1.*</FILTER>
     </SUITE>
@@ -31,25 +24,33 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="190" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="BelajarJava" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_2/HighArrayApp.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="192">
+              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Praktikum_2/HighArray.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Praktikum_2/Mahasiswa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="339">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +64,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arr</find>
+      <find>arr[</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,8 +89,12 @@
         <option value="$PROJECT_DIR$/Praktikum_1/Mahasiswa.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
-        <option value="$PROJECT_DIR$/Praktikum_2/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_2/HighArray.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/Stack.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/StackApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_2/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_2/Mahasiswa.java" />
+        <option value="$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" />
       </list>
     </option>
   </component>
@@ -101,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +129,18 @@
               <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
               <item name="Praktikum_2" type="462c0819:PsiDirectoryNode" />
+              <item name="DataArrayApp.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
+              <item name="Praktikum_2" type="462c0819:PsiDirectoryNode" />
               <item name="HighArray.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -132,7 +149,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550543525196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550879735927" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -141,11 +158,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ListInterfaces" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Praktikum_2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -172,13 +192,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HighArrayApp (1)">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearch" />
+  <component name="RunManager" selected="Application.DataArrayApp (1)">
+    <configuration name="DataArrayApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_2.DataArrayApp" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="Praktikum_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,21 +245,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in BelajarJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_3.StackApp" />
       <module name="BelajarJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Praktikum_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="remote-debugging" type="Remote">
+      <module name="BelajarJava" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataArrayApp" />
+      <item itemvalue="Application.HighArrayApp (1)" />
+      <item itemvalue="Application.HighArrayApp" />
+      <item itemvalue="Application.StackApp" />
+      <item itemvalue="Remote.remote-debugging" />
+      <item itemvalue="Application.DataArrayApp (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HighArrayApp (1)" />
-        <item itemvalue="Application.HighArrayApp" />
+        <item itemvalue="Application.DataArrayApp (1)" />
         <item itemvalue="Application.DataArrayApp" />
-        <item itemvalue="JUnit.All in BelajarJava" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.HighArrayApp (1)" />
+        <item itemvalue="Application.StackApp" />
+        <item itemvalue="Application.HighArrayApp" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550327768283</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1550589519185</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550589519185</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -356,7 +406,7 @@
     <frame x="-2" y="-30" width="1370" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.23413897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.25906345" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +415,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4923077" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3735119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32886904" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3888889" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38690478" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,31 +579,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java" />
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WaktuProses/Main.java" />
     <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -564,13 +594,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -591,17 +614,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_2/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="160">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/StackApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/classArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_2/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="32">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_1/Mahasiswa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_2/Mahasiswa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
         </state>
       </provider>
     </entry>
