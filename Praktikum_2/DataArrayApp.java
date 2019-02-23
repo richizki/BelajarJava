@@ -103,6 +103,21 @@ class DataArray {
             mhs[i] = temp;
         }
     }
+
+    public void SelectionSortByName() {
+        int awal, i, min;
+
+        for (awal=0; awal < nElemen-1;awal++) {
+            min = awal;
+            for(i = awal; i < nElemen; i++) {
+                int compare = mhs[i].getNama().compareTo(mhs[min].getNama());
+                if(compare < 0)
+                    min = i;
+            }
+
+            swap(awal, min);
+        }
+    }
 }
 
 
@@ -125,10 +140,14 @@ public class DataArrayApp {
 
         System.out.println("sebelum di urutkan");
         arr.displayArray();
-//        arr.BubbleSort();
+        arr.BubbleSort();
 //        arr.InsertionSort();
-        arr.SelectionSort();
-        System.out.println("setelah di urutkan");
+//        arr.SelectionSort();
+        System.out.println("setelah di urutkan by NIM");
+        arr.displayArray();
+
+        arr.SelectionSortByName();
+        System.out.println("setelah di urutkan by Nama");
         arr.displayArray();
     }
 }
