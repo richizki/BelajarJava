@@ -118,6 +118,22 @@ class DataArray {
             swap(awal, min);
         }
     }
+
+    public void InsertionSortByName() {
+        int i, curIn;
+
+        for (i = 0; i < nElemen ; i++) {
+            for (curIn = 1; curIn < nElemen ; curIn++) {
+                String one = mhs[curIn - 1].getNama();
+                String two = mhs[curIn].getNama();
+                if (one.compareTo(two) > 0) {
+                    Mahasiswa temps = mhs[curIn - 1];
+                    mhs[curIn - 1] = mhs[curIn];
+                    mhs[curIn] = temps;
+                }
+            }
+        }
+    }
 }
 
 
@@ -138,16 +154,17 @@ public class DataArrayApp {
         arr.insert(16650250, "Rais", "Ambon");
         arr.insert(16650240, "Dinda", "Bandung");
 
-        System.out.println("sebelum di urutkan");
-        arr.displayArray();
-        arr.BubbleSort();
+//        System.out.println("sebelum di urutkan");
+//        arr.displayArray();
+//        arr.BubbleSort();
 //        arr.InsertionSort();
 //        arr.SelectionSort();
-        System.out.println("setelah di urutkan by NIM");
-        arr.displayArray();
+//        System.out.println("setelah di urutkan by NIM");
+//        arr.displayArray();
 
-        arr.SelectionSortByName();
-        System.out.println("setelah di urutkan by Nama");
-        arr.displayArray();
+//        arr.SelectionSortByName();
+//        arr.InsertionSortByName();
+//        System.out.println("setelah di urutkan by Nama");
+//        arr.displayArray();
     }
 }

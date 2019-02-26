@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" line="158" />
+    <bookmark url="file://$PROJECT_DIR$/Praktikum_3/Stack.java" line="31" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_2/HighArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_2/HighArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,25 +28,20 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="190" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="BelajarJava" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java">
+        <entry file="file://$PROJECT_DIR$/Praktikum_3/InfixToPostfix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_2/Mahasiswa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="549">
+              <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -82,18 +81,22 @@
         <option value="$PROJECT_DIR$/Praktikum_1/DataArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_1/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_2/HighArray.java" />
-        <option value="$PROJECT_DIR$/Praktikum_3/Stack.java" />
         <option value="$PROJECT_DIR$/Praktikum_3/StackApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_2/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_2/Mahasiswa.java" />
+        <option value="$PROJECT_DIR$/Exercise_2/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/Stack.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/Queue.java" />
         <option value="$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/QueueApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_3/InfixToPostfix.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-4" />
-    <option name="y" value="-32" />
-    <option name="width" value="1370" />
-    <option name="height" value="740" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="94" />
+    <option name="width" value="1356" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -103,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,24 +116,13 @@
             <path>
               <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktikum_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktikum_2" type="462c0819:PsiDirectoryNode" />
-              <item name="DataArrayApp.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktikum_2" type="462c0819:PsiDirectoryNode" />
-              <item name="HighArray.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Praktikum_3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -140,7 +131,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550854936674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551144241528" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -149,7 +140,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -183,7 +174,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackApp">
+  <component name="RunManager" selected="Application.QueueApp">
+    <configuration name="DataArrayApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_2.DataArrayApp" />
+      <module name="BelajarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Praktikum_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Praktikum_1.DataArrayApp" />
       <module name="BelajarJava" />
@@ -210,21 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_1.HighArrayApp" />
-      <module name="BelajarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Praktikum_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_3.StackApp" />
+    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_3.QueueApp" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
@@ -236,10 +227,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in BelajarJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_2.SelectionSort" />
       <module name="BelajarJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,20 +251,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.DataArrayApp (1)" />
       <item itemvalue="Application.DataArrayApp" />
       <item itemvalue="Application.HighArrayApp (1)" />
-      <item itemvalue="Application.HighArrayApp" />
-      <item itemvalue="Application.StackApp" />
-      <item itemvalue="JUnit.All in BelajarJava" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.QueueApp" />
       <item itemvalue="Remote.remote-debugging" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackApp" />
-        <item itemvalue="Application.HighArrayApp (1)" />
-        <item itemvalue="Application.HighArrayApp" />
+        <item itemvalue="Application.QueueApp" />
+        <item itemvalue="Application.DataArrayApp (1)" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.DataArrayApp" />
-        <item itemvalue="JUnit.All in BelajarJava" />
+        <item itemvalue="Application.HighArrayApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +349,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550589519185</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update praktikum 2 no.1">
+      <created>1550879757162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550879757162</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update praktikum 2 no.2">
+      <created>1550880287871</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550880287871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-30" width="1370" height="800" extended-state="0" />
+    <frame x="0" y="-26" width="1366" height="794" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.25906345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.19318181" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,15 +411,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32886904" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32886904" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32886904" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3876923" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.41538462" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32886904" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32886904" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32886904" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.38473055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,6 +428,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32930514" />
+      <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.33030304" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.20090635" />
@@ -457,7 +467,9 @@
     <MESSAGE value="membuat insert sorted array" />
     <MESSAGE value="update code insert sorted in array" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update praktikum 2 no.1" />
+    <MESSAGE value="update praktikum 2 no.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update praktikum 2 no.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,13 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1038" column="20" lean-forward="true" selection-start-line="1038" selection-start-column="20" selection-end-line="1038" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/ListInterfaces/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -557,13 +563,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListInterfaces/ListClientExampleTest.groovy" />
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4860">
-          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/Praktikum_1/DataArray.java" />
     <entry file="file://$PROJECT_DIR$/WaktuProses/Main.java" />
     <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.java">
@@ -600,27 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_3/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_2/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_3/StackApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -658,17 +641,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_2/Mahasiswa.java">
+    <entry file="file://$PROJECT_DIR$/Exercise_2/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="494">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_2/Mahasiswa.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+        <state relative-caret-position="469">
+          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/StackApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_3/InfixToPostfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -730,6 +751,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
