@@ -5,11 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Praktikum_3/Stack.java" line="30" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_3/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_3/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,11 +144,6 @@
               <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
               <item name="Exercise_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktikum_3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551227418769</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1551708188636</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551708188636</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -458,9 +456,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.21060605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.21060605" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
