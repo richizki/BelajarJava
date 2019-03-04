@@ -12,7 +12,6 @@ class Stack {
     }
 
     public void push(Character item) {
-
         stackArray[++top] = item;
     }
 
