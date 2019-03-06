@@ -19,8 +19,8 @@ public class Queue {
         if (isFull()) {
             System.out.println("Maaf "+value+" Antrian masih penuh");
         } else {
-            if (rear == maxSize - 1)
-                rear = -1;
+//            if (rear == maxSize - 1)
+//                rear = -1;
 
             queArray[++rear] = value;
             System.out.println(value + " Masuk antrian");
@@ -47,6 +47,7 @@ public class Queue {
                 front = 0;
             }
         }
+        System.out.println();
         front = temp;
     }
 

@@ -30,7 +30,6 @@ public class QueueApp {
         }
 
         // cek antrian
-        System.out.println("\n");
         System.out.println("Antrian kosong");
         System.out.println(theQueue.size()+" Person");
     }
