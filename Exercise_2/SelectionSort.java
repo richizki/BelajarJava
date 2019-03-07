@@ -49,38 +49,36 @@ public class SelectionSort {
 
     public static double randomFill() {
         Random rand = new Random();
-        double randomNum = rand.nextDouble(); ;
+        double randomNum = 1 + Math.random() * (100 - 1);
         return randomNum;
+    }
+
+    public static double[] bulatkan(double[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = Math.ceil(array[i]);
+        }
+        return array;
     }
 
 
     public static void main(String[] args) {
-        double[] angka = createNumberRandom(10000);
+        double[] angka = createNumberRandom(1000);
 
-        System.out.println("angka random sebelum di urutkan");
         munculDataArray(angka);
+        System.out.println("angka random sebelum di urutkan");
         System.out.println("Jumlah angka = "+angka.length);
+
         long start = System.currentTimeMillis();
         selectionSort(angka);
-
-//        for (int i = 0; i < angka.length; i++)
-//            for (int j = i + 1; j < angka.length; j++)
-//                if (angka[i] == angka[j])
-//                {
-//                    while (j < angka.length && angka[i] == angka[j])
-//                        j++;
-//                    System.out.println(angka[i]);
-//                    i = j;
-//                }
         long end = System.currentTimeMillis();
         long result = (end - start);
         int seconds = (int)((result / 1000) % 60);
 
         System.out.println("angka random setelah di urutkan");
         munculDataArray(angka);
-//        result = TimeUnit.MILLISECONDS.toSeconds(result);
         System.out.println("waktu proses "+seconds+ " Seconds");
 
-
+        System.out.println("angka setelah dibulatkan :");
+        munculDataArray(bulatkan(angka));
     }
 }
