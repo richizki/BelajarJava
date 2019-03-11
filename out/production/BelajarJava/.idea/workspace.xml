@@ -3,12 +3,16 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" line="158" />
     <bookmark url="file://$PROJECT_DIR$/Praktikum_3/Stack.java" line="30" />
+    <bookmark url="file://$PROJECT_DIR$/Exercise_2/SelectionSort.java" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/Praktikum_4/LinkedList.java" line="0" />
+    <bookmark url="file://$PROJECT_DIR$/Praktikum_4/LinkedListApp.java" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="update">
+    <list default="true" id="be1a9b0e-7c41-429f-a60f-fedcf4e5c892" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_3/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_3/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikum_3/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_3/QueueApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_2/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_2/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikum_4/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_4/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikum_4/LinkedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikum_4/LinkedListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,28 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktikum_3/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="5" lean-forward="true" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Praktikum_4/StackLinkedlistApp.java">
+        <entry file="file://$PROJECT_DIR$/Exercise_2/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -78,6 +65,7 @@
     <findStrings>
       <find>arr[</find>
       <find>arr</find>
+      <find>deletela</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,19 +103,23 @@
         <option value="$PROJECT_DIR$/Praktikum_3/Stack.java" />
         <option value="$PROJECT_DIR$/Praktikum_3/Pembalik.java" />
         <option value="$PROJECT_DIR$/Praktikum_3/AppPembalik.java" />
-        <option value="$PROJECT_DIR$/Praktikum_4/LinkedListApp.java" />
-        <option value="$PROJECT_DIR$/Praktikum_4/LinkedList.java" />
-        <option value="$PROJECT_DIR$/Exercise_2/SelectionSort.java" />
         <option value="$PROJECT_DIR$/Praktikum_3/QueueApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_2/DataArrayApp.java" />
         <option value="$PROJECT_DIR$/Praktikum_3/Queue.java" />
         <option value="$PROJECT_DIR$/Praktikum_4/Stack.java" />
         <option value="$PROJECT_DIR$/Praktikum_4/StackUsingLinkedlist.java" />
         <option value="$PROJECT_DIR$/Praktikum_4/StackLinkedlistApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_5/Exponen.java" />
+        <option value="$PROJECT_DIR$/Praktikum_5/TowerOfHanoi.java" />
+        <option value="$PROJECT_DIR$/Praktikum_5/Pendahuluan_2.java" />
+        <option value="$PROJECT_DIR$/Praktikum_4/LinkedListApp.java" />
+        <option value="$PROJECT_DIR$/Praktikum_4/LinkedList.java" />
+        <option value="$PROJECT_DIR$/Praktikum_5/Pendahuluan_5.java" />
+        <option value="$PROJECT_DIR$/Exercise_2/SelectionSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="-1" />
     <option name="width" value="1368" />
@@ -141,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,12 +144,13 @@
             <path>
               <item name="BelajarJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BelajarJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktikum_4" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +158,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551837786149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552241702698" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -176,6 +168,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -210,20 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackLinkedlistApp">
-    <configuration name="AppPembalik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_3.AppPembalik" />
-      <module name="BelajarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Praktikum_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Praktikum_4.LinkedListApp" />
       <module name="BelajarJava" />
@@ -237,12 +217,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_3.QueueApp" />
+    <configuration name="Pendahuluan_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_5.Pendahuluan_2" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Praktikum_3.*" />
+          <option name="PATTERN" value="Praktikum_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pendahuluan_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_5.Pendahuluan_5" />
+      <module name="BelajarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Praktikum_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackLinkedlistApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_4.StackLinkedlistApp" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Praktikum_5.TowerOfHanoi" />
       <module name="BelajarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Praktikum_4.*" />
+          <option name="PATTERN" value="Praktikum_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,20 +280,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.AppPembalik" />
-      <item itemvalue="Application.LinkedListApp" />
-      <item itemvalue="Application.QueueApp" />
+      <item itemvalue="Application.TowerOfHanoi" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.Pendahuluan_2" />
+      <item itemvalue="Application.LinkedListApp" />
+      <item itemvalue="Application.Pendahuluan_5" />
       <item itemvalue="Remote.remote-debugging" />
-      <item itemvalue="Application.StackLinkedlistApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackLinkedlistApp" />
-        <item itemvalue="Application.QueueApp" />
-        <item itemvalue="Application.AppPembalik" />
         <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Pendahuluan_5" />
         <item itemvalue="Application.LinkedListApp" />
+        <item itemvalue="Application.Pendahuluan_2" />
+        <item itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551708652783</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <created>1551838187333</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551838187334</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1551966304358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551966304358</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,10 +477,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-26" width="1368" height="798" extended-state="0" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.21666667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" weight="0.22727273" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,14 +489,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.42184874" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.41927084" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32886904" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32534248" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.37874252" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.37732658" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -499,10 +506,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32930514" />
-      <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.31363636" />
+      <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.4462121" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.2057101" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" weight="0.22727273" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,14 +518,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5014881" side_tool="true" weight="0.24546827" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4140625" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.41927084" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32886904" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32886904" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32534248" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.3815104" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.37732658" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -528,7 +535,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32930514" />
-      <window_info anchor="right" id="Run" order="9" side_tool="true" visible="true" weight="0.3784773" />
+      <window_info active="true" anchor="right" id="Run" order="9" side_tool="true" visible="true" weight="0.6368961" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
@@ -610,6 +617,54 @@
           <line>38</line>
           <properties />
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_5/Pendahuluan_2.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_5/Pendahuluan_2.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_5/Pendahuluan_2.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_4/LinkedList.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_4/LinkedList.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_4/LinkedList.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_4/LinkedList.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Praktikum_4/LinkedList.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -739,57 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_2/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_4/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkedListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkQueueApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_4/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -855,23 +859,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_3/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="5" lean-forward="true" selection-end-line="40" />
+        <state relative-caret-position="318">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Praktikum_4/StackLinkedlistApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="437">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/FdLibm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2185">
+          <caret line="345" column="38" selection-start-line="345" selection-start-column="38" selection-end-line="345" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="650" column="28" selection-start-line="650" selection-start-column="26" selection-end-line="650" selection-end-column="33" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#26000#26001#0" expanded="true" />
+            <element signature="e#26047#26048#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="666" column="27" selection-start-line="666" selection-start-column="26" selection-end-line="666" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_5/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_5/Exponen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_5/Pendahuluan_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_4/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_4/LinkQueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Praktikum_5/Pendahuluan_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_2/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>

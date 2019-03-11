@@ -55,7 +55,7 @@ public class LinkedList {
         return current;
     }
 
-    public Link detelLast() {
+    public Link deleteLast() {
 
         // Find the second last node
         Link second_last = first;
@@ -63,9 +63,6 @@ public class LinkedList {
             second_last = second_last.next;
 
         // Delete last node
-        second_last.next = null;
-
-        // Change next of second last
         second_last.next = null;
 
         return second_last;

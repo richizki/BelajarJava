@@ -10,7 +10,8 @@ public class LinkedListApp {
         theList.insertFirst(88);
         theList.displayList();
 
-        theList.insertLast(99);
+//        theList.insertLast(99);
+        theList.deleteLast();
         theList.displayList();
 
 //        while (!theList.isEmpty()) {

@@ -1,7 +1,5 @@
 package Exercise_2;
 
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class SelectionSort {
     public static void swapElements(double[] array, int i, int j) {
@@ -25,8 +23,6 @@ public class SelectionSort {
             int j = indexLowest(array, i);
             swapElements(array, i, j);
         }
-
-//       munculDataArray(array);
     }
 
     public static void munculDataArray(double[] array) {
@@ -37,7 +33,6 @@ public class SelectionSort {
     }
 
     public static double[] createNumberRandom(int limit) {
-        Random rand = new Random();
         double[] angka = new double[limit];
 
         for (int i = 0; i <angka.length ; i++) {
@@ -48,7 +43,6 @@ public class SelectionSort {
     }
 
     public static double randomFill() {
-        Random rand = new Random();
         double randomNum = 1 + Math.random() * (100 - 1);
         return randomNum;
     }
@@ -60,25 +54,47 @@ public class SelectionSort {
         return array;
     }
 
+    public static void findDupicateInArray(double[] array) {
+        for (int i = 0; i < array.length; i++)
+        {
+            int sama = 0;
+
+            for (int j = 0; j < array.length; j++)
+            {
+                if (array[i] == array[j])
+                {
+                    sama++;
+                }
+            }
+                System.out.println(array[i] + " => " + sama);
+        }
+    }
+
 
     public static void main(String[] args) {
-        double[] angka = createNumberRandom(1000);
+        double[] angka = createNumberRandom(10);
 
-        munculDataArray(angka);
         System.out.println("angka random sebelum di urutkan");
+        munculDataArray(angka);
         System.out.println("Jumlah angka = "+angka.length);
 
         long start = System.currentTimeMillis();
+
         selectionSort(angka);
+
         long end = System.currentTimeMillis();
         long result = (end - start);
-        int seconds = (int)((result / 1000) % 60);
+//        long seconds = (result / 1000);
 
         System.out.println("angka random setelah di urutkan");
         munculDataArray(angka);
-        System.out.println("waktu proses "+seconds+ " Seconds");
+        System.out.println("waktu proses "+result+ " Milliseconds");
 
         System.out.println("angka setelah dibulatkan :");
         munculDataArray(bulatkan(angka));
+
+        findDupicateInArray(angka);
+
+//        munculDataArray(angka);
     }
 }
